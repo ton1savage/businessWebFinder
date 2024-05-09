@@ -2,7 +2,7 @@ import requests
 
 def area_code_to_coordinates(area_code):
     # Your API key for Google Geocoding API
-    api_key = 'AIzaSyBIJG0MXNpRmUK0_yGd9qQDNpE7D83rYp4'
+    api_key = 'Enter API key here'
 
     # API endpoint for Geocoding API
     url = 'https://maps.googleapis.com/maps/api/geocode/json'
@@ -37,7 +37,7 @@ def area_code_to_coordinates(area_code):
 
 def find_small_businesses_by_coordinates(latitude, longitude, keyword):
     # Your API key for Google Places API
-    api_key = 'AIzaSyDTJtZ2N1iLs4ARYgd7ZrBjzlG6C2c_Dsc'
+    api_key = 'Enter API key here'
 
     # API endpoint
     url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json'
@@ -79,7 +79,7 @@ def find_small_businesses_by_coordinates(latitude, longitude, keyword):
 
 def get_business_website(place_id):
     # Your API key for Google Places API
-    api_key = 'AIzaSyDTJtZ2N1iLs4ARYgd7ZrBjzlG6C2c_Dsc'
+    api_key = 'Enter API key here'
 
     # API endpoint for Place Details
     url = 'https://maps.googleapis.com/maps/api/place/details/json'
