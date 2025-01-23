@@ -2,7 +2,7 @@ Small Business Finder
 
 Overview
 
-This script helps find small businesses in a given area code that might need a new website. It uses Google Geocoding API to convert area codes to latitude and longitude coordinates and Google Places API to search for businesses based on a given keyword.
+This script helps find small businesses in a given area code that might need a new website. It uses the Google Geocoding API to convert area codes to latitude and longitude coordinates and the Google Places API to search for businesses based on a given keyword.
 
 Features
 
@@ -28,19 +28,28 @@ The requests library installed (install using pip install requests).
 
 Installation
 
-Clone or download this repository.
+Clone the Repository
 
-Install the required dependencies:
+git clone https://github.com/yourusername/small-business-finder.git
+cd small-business-finder
 
-pip install requests
+Install Dependencies
 
-Replace 'Enter API key here' with your actual Google API keys in the script.
+pip install -r requirements.txt
+
+Set Up API Keys
+
+Open script.py in a text editor.
+
+Replace 'Enter API key here' with your actual Google API keys.
 
 Usage
 
-Run the script:
+Run the Script
 
 python script.py
+
+Provide Inputs
 
 Enter an area code when prompted.
 
@@ -84,4 +93,4 @@ This project is licensed under the MIT License.
 
 Author
 
-[Your Name]
+Ethan Robinson
